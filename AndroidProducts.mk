@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_hotdog.mk
+    $(LOCAL_DIR)/gzosp_hotdog.mk
+
+COMMON_LUNCH_CHOICES := \
+    gzosp_hotdog-userdebug
